@@ -45,7 +45,7 @@ public class UserControllerTest {
     @Test
     public void shouldLogin() throws Exception {
 
-        JSONObject jsonObj = new JSONObject("{\"password\":\"hehe\",\"email\":\"hehe\"}");
+        
 
         this.mockMvc.perform(post("/users/dologin")
 
@@ -56,7 +56,7 @@ public class UserControllerTest {
     @Test
     public void shouldNotLoginwithWrongcredentials() throws Exception {
 
-        JSONObject jsonObj = new JSONObject("{\"password\":\"hehe\",\"email\":\"hehe\"}");
+        JSONObject jsonObj = new JSONObject("{\"password\":\"admin\",\"email\":\"admin\"}");
 
         this.mockMvc.perform(post("/users/dologin")
 
@@ -74,7 +74,7 @@ public class UserControllerTest {
     @Test
     public void getUserAccountInfo() throws Exception {
 
-        JSONObject jsonObj = new JSONObject("{\"password\":\"hehe\",\"email\":\"hehe\"}");
+        
 
         this.mockMvc.perform(post("/files/getAccountinfo")
 
@@ -85,7 +85,7 @@ public class UserControllerTest {
     @Test
     public void LogoutAndDestroyTheSession() throws Exception {
 
-        JSONObject jsonObj = new JSONObject("{\"password\":\"hehe\",\"email\":\"hehe\"}");
+        
 
         this.mockMvc.perform(post("/users/logout")
 
@@ -96,7 +96,7 @@ public class UserControllerTest {
     @Test
     public void InsertStarFile() throws Exception {
 
-        JSONObject jsonObj = new JSONObject("{\"password\":\"hehe\",\"email\":\"hehe\"}");
+        
 
         this.mockMvc.perform(post("/files/star")
 
@@ -108,7 +108,7 @@ public class UserControllerTest {
     @Test
     public void DeleteGroup() throws Exception {
 
-        JSONObject jsonObj = new JSONObject("{\"password\":\"hehe\",\"email\":\"hehe\"}");
+        
 
         this.mockMvc.perform(post("/files/deletegroup")
 
@@ -119,7 +119,7 @@ public class UserControllerTest {
     @Test
     public void ShareSendMail() throws Exception {
 
-        JSONObject jsonObj = new JSONObject("{\"password\":\"hehe\",\"email\":\"hehe\"}");
+        
 
         this.mockMvc.perform(post("/users/sendemail")
 
@@ -130,7 +130,7 @@ public class UserControllerTest {
     @Test
     public void GetMyFolders() throws Exception {
 
-        JSONObject jsonObj = new JSONObject("{\"password\":\"hehe\",\"email\":\"hehe\"}");
+        
 
         this.mockMvc.perform(post("/users/getfolders")
 
