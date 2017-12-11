@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+
+
+.App-title {
+  font-size: 1.5em;
+}
+.change-Background{
+  background-color: #F0F8FF;
+  height: 680px;
+}
+.change-Backgroundlogin{
+  background-color: lightcyan;
+}
+.change-Backgroundlogin1{
+  background-color: #8f8fff;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.vert-offset-top-10{
+  margin-top: 10em;
+}
+.vert-offset-top-20{
+  margin-top: 10em;
+}
+
+.vert-offset-top-7{
+  margin-top: 7em;
+}
+.vert-offset-top-8{
+  margin-top: 8em;
+}
+.vert-offset-top-6{
+  margin-top: 6em;
+}
+.vert-offset-top-5{
+  margin-top: 5em;
+}
+.vert-offset-top-1{
+  margin-top: 1em;
+}
+.vert-offset-top-2{
+  margin-top: 2em;
+}
+.round {
+  width: 100%;
+  border-radius: 15px;
+  border: 1px #000 solid;
+  padding: 5px 5px 5px 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.bgcolorgray {
+  background-color: #d3d3d3;
+}
+
+.img-responsive{
+  float: none;
+}
+
+
+
+

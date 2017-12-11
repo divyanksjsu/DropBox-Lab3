@@ -1,0 +1,1 @@
+insert into USER (name,email,password) values ('Test','divyank68@yahoo.co.in','react');

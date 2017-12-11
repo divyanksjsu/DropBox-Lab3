@@ -1,0 +1,22 @@
+{
+  "name": "ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "material-ui": "^1.0.0-beta.10",
+    "mocha": "^4.0.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-file-download": "^0.3.5",
+    "react-folder-tree": "^3.0.0",
+    "react-native-elements": "^0.17.0",
+    "react-router-dom": "*",
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
